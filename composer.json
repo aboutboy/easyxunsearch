@@ -1,0 +1,29 @@
+{
+    "name": "aboutboy/xunsearch",
+    "description": "use xunsearch in laravel projects more easy",
+    "type": "library",
+    "require": {
+        "php": "5.3.0",
+        "illuminate/support": "5.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aboutboy\\Xunsearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "easyboy",
+            "email": "91haoma@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aboutboy\\Xunsearch\\LaravelSServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}

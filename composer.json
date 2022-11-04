@@ -3,7 +3,7 @@
     "description": "use xunsearch in laravel projects more easy",
     "type": "library",
     "require": {
-        "php": "5.3.0",
+        "php": ">=5.3.0",
         "illuminate/support": "5.0"
     },
     "license": "MIT",
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aboutboy\\Xunsearch\\LaravelSServiceProvider"
+                "Aboutboy\\Xunsearch\\ServiceProvider"
             ]
         }
     },

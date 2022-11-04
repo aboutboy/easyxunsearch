@@ -1,6 +1,6 @@
-<?php namespace Easy\EasyXunsearch;
+<?php namespace Aboutboy\Xunsearch;
 
-use Easy\EasyXunsearch\Model\Config as ModelsConfig;
+use Aboutboy\Xunsearch\Model\Config as ModelsConfig;
 use Config;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
@@ -29,7 +29,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $this->app->singleton('xunsearch.models.config', function ($app) {
             return new ModelsConfig(
                 Config::get('xunsearch.index.models'),
-                $app->make('Easy\EasyXunsearch\Model\Factory')
+                $app->make('Aboutboy\Xunsearch\Model\Factory')
             );
         });
 

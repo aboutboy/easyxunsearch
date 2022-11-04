@@ -40,7 +40,7 @@ If you want to use the facade to search, add this to your facades in `app/config
 Publish the config file into your project by running:
 
 ```bash
-php artisan vendor:publish --provider="Easy\EasyXunsearch\ServiceProvider"
+php artisan vendor:publish --provider="Aboutboy\Xunsearch\ServiceProvider"
 ```
 ###Basic
 In published config file add descriptions for models which need to be indexed, for example:

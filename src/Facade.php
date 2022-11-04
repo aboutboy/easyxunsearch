@@ -1,4 +1,4 @@
-<?php namespace Easy\XunSearch;
+<?php namespace Aboutboy\XunSearch;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {

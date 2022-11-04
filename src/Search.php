@@ -1,16 +1,16 @@
-<?php namespace Easy\EasyXunsearch;
+<?php namespace Aboutboy\Xunsearch;
 
 use App;
 use Illuminate\Database\Eloquent\Model;
-use Easy\EasyXunsearch\Model\Config as ModelsConfig;
-use Easy\EasyXunsearch\XunSearch\Xs as XunSearch;
+use Aboutboy\Xunsearch\Model\Config as ModelsConfig;
+use Aboutboy\Xunsearch\XunSearch\Xs as XunSearch;
 
 /**
  * Class Search
  * Main search class
  *
  * @author sdfsky
- * @package Easy\EasyXunsearch
+ * @package Aboutboy\Xunsearch
  */
 class Search
 {
@@ -50,7 +50,7 @@ class Search
     private $config;
 
     /**
-     * @return \Easy\EasyXunsearch\Model\Config
+     * @return \Aboutboy\Xunsearch\Model\Config
      */
     public function config()
     {
